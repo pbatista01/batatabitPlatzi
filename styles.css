@@ -145,6 +145,7 @@ main{
     overscroll-behavior-x:contain;
     scroll-snap-type: x proximity;
 }
+
 .main-currency-table{
     width:70%;
     min-width:235px;
@@ -154,6 +155,7 @@ main{
     font-family:'Inter', sans-serif;
     margin-left:40px;
     scroll-snap-align: center;
+
 
 }
 .main-currency-table .currency-table--title{
@@ -254,6 +256,8 @@ main{
     margin: 0 auto;
     font-family:'Inter', sans-serif;
     margin-left:20px;
+    scroll-snap-align: center;
+
 }
 .main-commisions-table .commissions-table--title{
     margin-bottom:15px;
@@ -470,7 +474,7 @@ main{
 }
 .plans-container--slider{
     display:flex;
-    height:316px;
+    height:340px;
     overflow-x: scroll;
     overscroll-behavior-x:contain;
     scroll-snap-type: x proximity;
